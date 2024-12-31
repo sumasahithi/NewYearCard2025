@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("Assets/bg.avif");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;  
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #faf8f8;
+    margin: 0;
+    padding: 0;
+    height: 100vh;  
+    width: 100vw;  
+    
+     
+}
+
+.card {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+button {
+    background: #e9f65b;
+    color: #030303;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #ff6a75;
+    color: #070707;
+    transform: scale(1.1);
+}
+
+footer {
+    position: absolute; 
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    background-color: transparent;  
+    font-family: 'Arial', sans-serif;
+}
+
